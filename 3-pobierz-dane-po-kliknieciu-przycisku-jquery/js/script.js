@@ -6,7 +6,7 @@ $(document).ready(function () {
             .done(function (data) {
 
                 let pId = $('<p></p>').text(`Post ID: ${data.id}`)
-                let pUserId = $('<p></p>').text(`Post ID: ${data.UserId}`)
+                let pUserId = $('<p></p>').text(`Post ID: ${data.userId}`)
                 let pTitle = $('<p></p>').text(`Post ID: ${data.title}`)
                 let pBody = $('<p></p>').text(`Post ID: ${data.body}`)
                 let hr = $('<hr/>')
@@ -32,7 +32,7 @@ $(document).ready(function () {
     //         .done(function (data) {
 
     //             let pId = $('<p></p>').text(`Post ID: ${data.id}`)
-    //             let pUserId = $('<p></p>').text(`Post ID: ${data.UserId}`)
+    //             let pUserId = $('<p></p>').text(`Post ID: ${data.userId}`)
     //             let pTitle = $('<p></p>').text(`Post ID: ${data.title}`)
     //             let pBody = $('<p></p>').text(`Post ID: ${data.body}`)
     //             let hr = $('<hr/>')
